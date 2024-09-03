@@ -9,4 +9,4 @@ print (current_directory) #prints out the absolute path of the current directory
 count = 0 
 dir_path = 'C:/home/ubuntu/pythonpractice'
 
-for elements in os.listdir(dir_path)
+for path in os.listdir(dir_path)
