@@ -16,5 +16,4 @@ return round(uptime_percentage, 2) #This will round uptime percentage to two dec
 
 total_hours= 5 
 down_hours = 2
-uptime = uptime = calculate_uptime(total_hours, down_hours)
 print(f"Uptime percentage: {uptime}%")
