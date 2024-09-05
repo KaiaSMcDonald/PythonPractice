@@ -5,7 +5,7 @@
 
 # Define the function and add the two parameters 
 def calculate_uptime(total_hours, down_hours):
-    if total_hours <= 0 or down_hours > total_hours: #Total hours must be greater than 0, and down hours must be between 0 and total hours
+    if total_hours <= 0 or down_hours > 0 or down_hours < total_hours: #Total hours must be greater than 0, and down hours must be between 0 and total hours
 
 
 # Create a variable for uptime_hours and uptime_percentage
