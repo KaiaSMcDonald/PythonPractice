@@ -12,6 +12,13 @@ def count_items_in_directory(directory_path):
 #Take directoy path as a input 
 directory = input("Enter the path of the directory:")
 
-#Count the number of items in the directory and output the result 
-print(f"Number of items in '{directory}': {count_items_in_directory(directory)}")
 
+#Verify if the directory exists
+if os.path.isdir(directory):
+   print("Directory exists")
+else:
+   print("Directory doesn't exists")
+
+
+#Count the number of items in the directory and output the result
+print(f"Number of items in '{directory}': {count_items_in_directory(directory)}")
